@@ -22,8 +22,16 @@ Costruire una semplice REST API per gestire una libreria di libri, applicando un
 
 ### Istruzioni:
 **1.** Scarica il progetto da github.  
-**2.** Installa le librerie necessarie con il comando `npm i` nel terminale del progetto.  
-**3.** Scrivi nella console `npm run dev` per avviare il server.  
+**2.** Installa le librerie necessarie con il comando  
+```
+npm i
+```  
+nel terminale del progetto.  
+**3.** Scrivi nella console  
+```
+npm run dev
+```  
+per avviare il server.  
 **4.** Controlla che sia avviato.  
 **5.** Usa postman per testare la risposta delle API, con il link che ti appare nella console.
 
