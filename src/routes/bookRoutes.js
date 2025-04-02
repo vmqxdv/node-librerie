@@ -16,10 +16,10 @@ router.get('/available', getBooks);
 router.get('/:id', getBooksId);
 
 
-// Rotta post
+// Rotta store
 router.post('/', validateBook, postBook);
 
-// Rotta put
+// Rotta update
 router.put('/:id', validateBook, putBooksId);
 
 // Rotta destroy
