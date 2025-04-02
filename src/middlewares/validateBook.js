@@ -1,9 +1,11 @@
 // Dichiaro la funzione per controllare se i libri sono validi per titolo e autore
 function validateBook(req, res, next) {
   const newPutBook = req.body;
-  const validParams = ['title', 'author']
+  const toBeValidParams = ['title', 'author']
 
-  if (!isObjValid(newPutBook, validParams)) return res.status(422).json({ error: 'Controlla che tutti i campi siano validi' });
+  if (!isObjValid(newPutBook, toBeValidParams)) 
+    return res.status(422).json({ error: 'Controlla che tutti i campi siano validi' });
+  
   next();
 };
 

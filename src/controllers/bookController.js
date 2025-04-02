@@ -78,7 +78,7 @@ function deleteBookId(req, res) {
   // console.log(booksData);
 
   // Invio risposta
-  res.status(204).json();
+  res.sendStatus(204);
 };
 
 
@@ -97,6 +97,6 @@ module.exports = {
 // Dichiaro funzione per modificare i nuovi parametri dei libri
 function updateNewKeys(oldObj, newObj) {
   for (const [key, value] of Object.entries(newObj)) {
-    if (oldObj.hasOwnProperty(key) && oldObj[key] !== value) oldObj[key] = value;
+    if (oldObj.hasOwnProperty(key) && oldObj[key] !== value) typeof oldObj[key] === 'number' ? Number(value) : value;
   };
 };
