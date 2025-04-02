@@ -34,6 +34,8 @@ npm run dev
 per avviare il server.  
 **4.** Controlla che sia avviato.  
 **5.** Usa postman per testare la risposta delle API, con il link che ti appare nella console.
+  
+---
 
 ### Lista rotte da poter provare:
 - GET (index) http://localhost:3000/books  
