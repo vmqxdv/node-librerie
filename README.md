@@ -15,7 +15,7 @@ Costruire una semplice REST API per gestire una libreria di libri, applicando un
 - **Validazione**: blocca POST e PUT se mancano title o author
 
 ### Bonus:
-- **Filtro per autore**: `GET /books?author=Eco`  
+- **Filtro per autore**: `GET /books?author=nome_autore`  
 - **Endpoint solo libri disponibili**: `GET /books/available`
 
 ---
