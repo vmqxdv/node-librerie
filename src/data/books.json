@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Il nome della rosa",
+    "author": "Umberto Eco",
+    "year": 1980,
+    "available": true
+  },
+  {
+    "id": 2,
+    "title": "1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "available": false
+  },
+  {
+    "id": 3,
+    "title": "Don Chisciotte della Mancia",
+    "author": "Miguel de Cervantes",
+    "year": 1605,
+    "available": true
+  },
+  {
+    "id": 4,
+    "title": "Orgoglio e Pregiudizio",
+    "author": "Jane Austen",
+    "year": 1813,
+    "available": true
+  },
+  {
+    "id": 5,
+    "title": "Il Signore degli Anelli",
+    "author": "J.R.R. Tolkien",
+    "year": 1954,
+    "available": false
+  },
+  {
+    "id": 6,
+    "title": "Il piccolo principe",
+    "author": "Antoine de Saint-Exupéry",
+    "year": 1943,
+    "available": true
+  },
+  {
+    "id": 7,
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "year": 1851,
+    "available": false
+  },
+  {
+    "id": 8,
+    "title": "I promessi sposi",
+    "author": "Alessandro Manzoni",
+    "year": 1827,
+    "available": true
+  },
+  {
+    "id": 9,
+    "title": "Guerra e Pace",
+    "author": "Lev Tolstoj",
+    "year": 1869,
+    "available": false
+  },
+  {
+    "id": 10,
+    "title": "Cent'anni di solitudine",
+    "author": "Gabriel García Márquez",
+    "year": 1967,
+    "available": true
+  }
+]
